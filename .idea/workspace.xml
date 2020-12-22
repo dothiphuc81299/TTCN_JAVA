@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ff242f7-fac4-4f06-9f75-c2d0d3fc9940" name="Default Changelist" comment="gop class">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/views/admin/auth/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/views/admin/cat/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/views/admin/cat/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/views/admin/cat/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/views/admin/forbiddenword/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/views/admin/forbiddenword/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/views/admin/forbiddenword/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/views/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/views/admin/song/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/views/admin/song/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/views/admin/song/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/views/admin/user/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/views/admin/user/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/views/admin/user/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/admin/AdminIndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/admin/AdminSearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/admin/cat/AdminAddCatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/admin/cat/AdminDeleteCatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/admin/cat/AdminEditCatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/admin/cat/AdminIndexCatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/admin/song/AdminAddSongController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/admin/song/AdminDeleteSongController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/admin/song/AdminEditSongController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/admin/song/AdminIndexSongController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/admin/user/AdminAddUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/admin/user/AdminDeleteUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/admin/user/AdminEditUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/admin/user/AdminIndexUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/templates/admin/inc/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/templates/admin/inc/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/templates/admin/inc/leftbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/templates/admin/inc/leftbar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/GlobalConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/GlobalConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/auth/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/auth/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daos/CategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daos/CategoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daos/SongDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daos/SongDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daos/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daos/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/StringUtil.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1m1FlfBC0GIJG6MEnGjcd7kVjTp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ff242f7-fac4-4f06-9f75-c2d0d3fc9940" name="Default Changelist" comment="" />
+      <created>1608653345914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608653345914</updated>
+      <workItem from="1608653346978" duration="332000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'master' of https://github.com/dothiphuc81299/TTCN_JAVA into tien&#10;&#10;# Conflicts:&#10;#&#9;.classpath&#10;#&#9;.project&#10;#&#9;.settings/org.eclipse.core.resources.prefs&#10;#&#9;.settings/org.eclipse.jdt.core.prefs&#10;#&#9;.settings/org.eclipse.wst.common.component&#10;#&#9;.settings/org.eclipse.wst.common.project.facet.core.xml&#10;#&#9;WebContent/WEB-INF/web.xml&#10;#&#9;WebContent/templates/admin/inc/header.jsp&#10;#&#9;WebContent/templates/admin/inc/leftbar.jsp&#10;#&#9;src/constants/GlobalConstant.java&#10;#&#9;src/controllers/auth/LoginController.java&#10;#&#9;src/daos/CategoryDao.java&#10;#&#9;src/daos/SongDao.java&#10;#&#9;src/daos/UserDao.java&#10;#&#9;src/models/Category.java&#10;#&#9;src/models/Song.java&#10;#&#9;src/models/User.java&#10;#&#9;src/utils/StringUtil.java" />
+    <MESSAGE value="gop class" />
+    <option name="LAST_COMMIT_MESSAGE" value="gop class" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="459" y="0" key="CommitChangelistDialog2" timestamp="1608653636733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="459" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608653636733" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1608653361931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608653361931" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1608653668442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608653668442" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608653479826">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608653479826" />
+  </component>
+</project>
