@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlrewrite>
+	<!--
+	Biểu thức chính quy: Được đặt trong dấu ngoặc tròn () bắt đầu từ 1,2,3...
+	VD: (.*) ([0-9]*) thì (.*) là 1, ([0-9]*) là 2 => Để lấy: $1, $2,...
+		^ : Bắt đầu
+		$ : Kết thúc
+		[a-z][A-Z] : Biểu thức chính quy chứa các ký tự từ a - z, A - Z
+		.* : Đại diện 0 hoặc nhiều ký tự bất kỳ
+		+* : Đại diện 1 hoặc nhiều ký tự bất kỳ
+		[0-9] : Đại diện cho các số từ 0 - 9
+	-->
+	
+	<!-- Filter phân trang trang chủ -->
+	<rule>
+		<from>/trang-([0-9]*).html</from>
+		<to>/index?pages=$1</to>
+	</rule>
+	
+	<!-- Filter danh mục -->
+	<rule>
+		<from>/danh-muc/(.*)-([0-9]*).html</from>
+		<to>/cat?catid=$2</to>
+	</rule>
+	
+	<!-- Filter phân trang danh mục -->
+	<rule>
+		<from>/trang-([0-9]*)/(.*)-([0-9]*).html</from>
+		<to>/cat?pages=$1&amp;catid=$3</to>
+	</rule>
+	
+	<!-- Filter tìm kiếm -->
+	<rule>
+		<from>/tim-kiem/trang-([0-9]*)/(.*).html</from>
+		<to>/search?pages=$1&amp;editbox_search=$2</to>
+	</rule>
+	
+	<!-- Filter chi tiết -->
+	<rule>
+		<from>/chi-tiet/(.*)-([0-9]*).html</from>
+		<to>/detail?id=$2</to>
+	</rule>
+	
+	<!-- Filter page error -->
+	<rule>
+		<from>/error/loi-([0-9]*)</from>
+		<to>/views/error/error.jsp?err=$1</to>
+	</rule>
+	
+	<!-- Filter admin page error -->
+	<rule>
+		<from>/error/admin/loi-([0-9]*)</from>
+		<to>/views/error/error-admin.jsp?err=$1</to>
+	</rule>
+</urlrewrite>
