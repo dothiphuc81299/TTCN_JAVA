@@ -30,28 +30,6 @@ public class CategoryDao extends AbstractDao {
 		return listCat;
 	}
 	
-	// Lấy (last) danh mục bắt đầu từ (first) => Phân trang
-	public ArrayList<Category> getCat(int first, int last) {
-		ArrayList<Category> listCat = new ArrayList<Category>();
-		conn = connectDB.getConnection();
-		String sql = "SELECT * FROM categories ORDER BY id DESC LIMIT ?,?";
-		try {
-			pstate = conn.prepareStatement(sql);
-			pstate.setInt(1, first);
-			pstate.setInt(2, last);
-			result = pstate.executeQuery();
-			while (result.next()) {
-				Category objCat = new Category(result.getInt("id"), result.getString("name"));
-				listCat.add(objCat);
-			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-		} finally {
-			connectDB.close(result, pstate, conn);
-		}
-		return listCat;
-	}
-
 	// Tìm kiếm danh mục bài hát
 	public ArrayList<Category> getSearchCat(String searchContent) {
 		ArrayList<Category> listCat = new ArrayList<Category>();

@@ -23,21 +23,7 @@
             <li>
                 <a id="user" href="<%=request.getContextPath() %>/admin/user/index"><i class="fa fa-user fa-3x"></i> Quản lý người dùng</a>
             </li>
-            <li>
-                <a id="comment" href="<%=request.getContextPath() %>/admin/comment/index"><i class="fa fa-comment fa-3x"></i> Quản lý bình luận</a>
-            </li>
-            <%
-            	if (objUser.getRole() != 0) {
-            %>
-            <li>
-                <a id="contact" href="<%=request.getContextPath() %>/admin/contact/index"><i class="fa fa-envelope fa-3x"></i> Quản lý liên hệ</a>
-            </li>
-            <li>
-                <a id="forbiddenword" href="<%=request.getContextPath() %>/admin/forbiddenword/index"><i class="fa fa-ban fa-3x"></i> Quản lý từ cấm</a>
-            </li>
-            <%
-            	}
-            %>
+  
         </ul>
     </div>
 </nav>

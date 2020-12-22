@@ -31,29 +31,6 @@ public class UserDao extends AbstractDao {
 		return listUser;
 	}
 	
-	// Phân trang
-	public ArrayList<User> getUser(int first, int last) {
-		ArrayList<User> listUser = new ArrayList<User>();
-		conn = connectDB.getConnection();
-		String sql = "SELECT * FROM users ORDER BY id DESC LIMIT ?,?";
-		try {
-			pstate = conn.prepareStatement(sql);
-			pstate.setInt(1, first);
-			pstate.setInt(2, last);
-			result = pstate.executeQuery();
-			while (result.next()) {
-				User objUser = new User(result.getInt("id"), result.getString("username"), result.getString("password"),
-						result.getString("fullname"), result.getInt("role"));
-				listUser.add(objUser);
-			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-		} finally {
-			connectDB.close(result, pstate, conn);
-		}
-		return listUser;
-	}
-
 	// Tìm kiến người dùng
 	public ArrayList<User> getSearchUser(String searchContent) {
 		ArrayList<User> listUser = new ArrayList<User>();

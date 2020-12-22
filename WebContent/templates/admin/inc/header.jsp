@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AdminCP | VinaEnter Edu</title>
+    <title>Âm nhạc </title>
     <!-- BOOTSTRAP STYLES-->
     <link href="<%=request.getContextPath() %>/templates/admin/assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONTAWESOME STYLES-->
@@ -32,7 +32,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<%=request.getContextPath() %>/admin/index">VinaEnter Edu</a>
+                <a class="navbar-brand" href="<%=request.getContextPath() %>/admin/index">Phúc Mars</a>
             </div>
             <%
             	if (session.getAttribute("login") != null) {

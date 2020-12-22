@@ -1,87 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
-	<display-name>bsong</display-name>
+	<display-name>ProjectCuoiKiLTM</display-name>
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
-
-	<error-page>
-		<!-- Missing resource -->
-		<error-code>404</error-code>
-		<location>/views/error/error404.jsp</location>
-	</error-page>
-
-	<filter>
-		<filter-name>UrlRewriteFilter</filter-name>
-		<filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
-	</filter>
-	<filter-mapping>
-		<filter-name>UrlRewriteFilter</filter-name>
-		<url-pattern>/*</url-pattern>
-		<dispatcher>REQUEST</dispatcher>
-		<dispatcher>FORWARD</dispatcher>
-	</filter-mapping>
-	
-	<servlet>
-		<servlet-name>PublicIndexController</servlet-name>
-		<servlet-class>controllers.publics.PublicIndexController</servlet-class>
-	</servlet>
-
-	<servlet-mapping>
-		<servlet-name>PublicIndexController</servlet-name>
-		<url-pattern>/index</url-pattern>
-	</servlet-mapping>
-
-	<servlet>
-		<servlet-name>PublicCatController</servlet-name>
-		<servlet-class>controllers.publics.PublicCatController</servlet-class>
-	</servlet>
-
-	<servlet-mapping>
-		<servlet-name>PublicCatController</servlet-name>
-		<url-pattern>/cat</url-pattern>
-	</servlet-mapping>
-
-	<servlet>
-		<servlet-name>PublicDetailController</servlet-name>
-		<servlet-class>controllers.publics.PublicDetailController</servlet-class>
-	</servlet>
-
-	<servlet-mapping>
-		<servlet-name>PublicDetailController</servlet-name>
-		<url-pattern>/detail</url-pattern>
-	</servlet-mapping>
-
-	<servlet>
-		<servlet-name>PublicContactController</servlet-name>
-		<servlet-class>controllers.publics.PublicContactController</servlet-class>
-	</servlet>
-
-	<servlet-mapping>
-		<servlet-name>PublicContactController</servlet-name>
-		<url-pattern>/contact</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>PublicSearchController</servlet-name>
-		<servlet-class>controllers.publics.PublicSearchController</servlet-class>
-	</servlet>
-
-	<servlet-mapping>
-		<servlet-name>PublicSearchController</servlet-name>
-		<url-pattern>/search</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>PublicSongLikeController</servlet-name>
-		<servlet-class>controllers.publics.PublicSongLikeController</servlet-class>
-	</servlet>
-
-	<servlet-mapping>
-		<servlet-name>PublicSongLikeController</servlet-name>
-		<url-pattern>/song/like</url-pattern>
-	</servlet-mapping>
-
 	<servlet>
 		<servlet-name>AdminIndexController</servlet-name>
 		<servlet-class>controllers.admin.AdminIndexController</servlet-class>
@@ -312,25 +234,7 @@
 		<url-pattern>/admin/forbiddenword/delete</url-pattern>
 	</servlet-mapping>
 	
-	<servlet>
-		<servlet-name>PublicCommentController</servlet-name>
-		<servlet-class>controllers.publics.status.PublicCommentController</servlet-class>
-	</servlet>
-
-	<servlet-mapping>
-		<servlet-name>PublicCommentController</servlet-name>
-		<url-pattern>/comment</url-pattern>
-	</servlet-mapping>
 	
-	<servlet>
-		<servlet-name>PublicLikeController</servlet-name>
-		<servlet-class>controllers.publics.status.PublicLikeController</servlet-class>
-	</servlet>
-
-	<servlet-mapping>
-		<servlet-name>PublicLikeController</servlet-name>
-		<url-pattern>/like</url-pattern>
-	</servlet-mapping>
 
 	<servlet>
 		<servlet-name>LoginController</servlet-name>
@@ -350,16 +254,6 @@
 	<servlet-mapping>
 		<servlet-name>LogoutController</servlet-name>
 		<url-pattern>/auth/logout</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>PublicLoginController</servlet-name>
-		<servlet-class>controllers.publics.log.PublicLoginController</servlet-class>
-	</servlet>
-
-	<servlet-mapping>
-		<servlet-name>PublicLoginController</servlet-name>
-		<url-pattern>/login</url-pattern>
 	</servlet-mapping>
 	
 	<servlet-mapping>
@@ -382,14 +276,4 @@
 	
 	
 	
-	
-	<servlet>
-		<servlet-name>PublicLogoutController</servlet-name>
-		<servlet-class>controllers.publics.log.PublicLogoutController</servlet-class>
-	</servlet>
-
-	<servlet-mapping>
-		<servlet-name>PublicLogoutController</servlet-name>
-		<url-pattern>/logout</url-pattern>
-	</servlet-mapping>
 </web-app>
